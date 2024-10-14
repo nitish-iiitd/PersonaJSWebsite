@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #149eca;
+    --secondary-color: #087ea4;
+    --background-color: #23272f;
+    --text-color: #ffffff;
+    --sub-text: #666;
+    --code-background: #1e2127;
+    --card-background: #2a2f3a;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.persona-main {
+    background-color: var(--background-color);
+}
+
+.persona-nav {
+    background-color: var(--background-color);
+}
+
+.persona-logo {
+    color: var(--primary-color) !important;
+}
+
+.persona-intro {
+    background-color: var(--background-color);
+
+    .header {
+        color: var(--text-color);
+    }
+
+    .persona-desc {
+        color: var(--sub-text);
+    }
+}
+
+.persona-features {
+    background-color: var(--background-color);
+    .icon {
+        color: var(--primary-color);
+    }
+    .heading {
+        color: var(--primary-color);
+    }
+    .desc {
+        color: var(--sub-text);
+    }
+}
+
+.persona-section {
+    .heading {
+        color: var(--text-color);
+    }
+}
+
+#documentation {
+    overflow: hidden; /* Prevents scrolling in the section */
+}
+
+#api-documentation {
+    width: 100%; /* Full width of the section */
+    height: 100vh; /* Adjust height as needed, 100vh makes it full viewport height */
+    border: none; /* Removes the default iframe border */
+    overflow: hidden;
+}
+
+.persona-footer {
+    background-color: var(--secondary-color);
+}
+
+/* Buttons */
+.light-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.dark-button {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+/**********/
+
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
+
+table.striped>tbody>tr:nth-child(even) {
+    background-color: var(--primary-color);
+}
